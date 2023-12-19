@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+  }
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  .todo-item.completed {
+    text-decoration: line-through;
+  }
+  .buttons {
+    display: flex;
+    gap: 5px;
+  }
+  .task-count {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
